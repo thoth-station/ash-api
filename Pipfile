@@ -7,6 +7,8 @@ verify_ssl = true
 
 [packages]
 connexion = {extras = ["swagger-ui"],version = "*"}
+thoth-storages = "*"
+python-dotenv = "*"
 
 [requires]
 python_version = "3.6"

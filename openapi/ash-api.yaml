@@ -16,3 +16,16 @@ paths:
       responses:
         "200":
           description: "Successful response with information."
+  "/language/{token}":
+    get:
+      responses:
+        "200":
+          description: "Returns top ten most similar words to {token}"
+        "404":
+          description: "{token} is not in the vocabulary"
+      parameters:
+        - name: token
+          in: path
+          required: true
+          schema:
+            type: string

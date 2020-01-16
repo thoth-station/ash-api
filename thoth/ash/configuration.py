@@ -16,12 +16,17 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 import os
+from dotenv import load_dotenv
+
+
+# Load .env file so os.environ.get() can access it's variables
+load_dotenv(dotenv_path='.env')
 
 
 class Configuration:
     """Configuration of Ash API service."""
 
-    APP_SECRET_KEY = os.environ.get("ASH_API_APP_SECRET_KEY", None)
+    APP_SECRET_KEY = os.environ.get("ASH_API_APP_SECRET_KEY")
     SWAGGER_YAML_PATH = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../../openapi")
 
     OPENAPI_PORT = 8080

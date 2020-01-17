@@ -12,6 +12,7 @@ flask-script = "*"
 prometheus-flask-exporter = "*"
 jaeger-client = "*"
 thoth-common = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.6"

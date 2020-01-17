@@ -144,10 +144,7 @@ def internal_server_error(exc):
 
 if __name__ == "__main__":
     app.run()
-<<<<<<< HEAD
 
     Configuration.tracer.close()
 
     sys.exit(1)
-=======
->>>>>>> 1a6eeabf843f56c9d5dd52c57451edfe652bd5f6

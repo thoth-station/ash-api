@@ -1,7 +1,5 @@
-# Changelog for Thoth's Template GitHub Project
+# Changelog for Thoth's Ash API
 
-## [0.1.0] - 2019-Sep-11 - goern
+## [0.0.0] - 2020-Jan-16 - ddehueck
 
-### Added
-
-all the things that you see...
+### Initial project creation

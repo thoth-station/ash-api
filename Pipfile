@@ -7,11 +7,6 @@ verify_ssl = true
 
 [packages]
 connexion = {extras = ["swagger-ui"],version = "*"}
-opentracing = "*"
-flask-script = "*"
-prometheus-flask-exporter = "*"
-jaeger-client = "*"
-thoth-common = "*"
 gunicorn = "*"
 
 [requires]

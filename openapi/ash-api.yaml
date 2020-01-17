@@ -16,11 +16,11 @@ paths:
       responses:
         "200":
           description: "Successful response with information."
-  "/language/{token}":
+  "/words/{token}":
     get:
       responses:
         "200":
-          description: "Returns top ten most similar words to {token}"
+          description: "Returns top 25 most similar words to {token}"
         "404":
           description: "{token} is not in the vocabulary"
       parameters:

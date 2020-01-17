@@ -15,11 +15,17 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
+<<<<<<< HEAD
+=======
+from typing import Dict
+from typing import Any
+
+>>>>>>> 706dc20214b4b91a57cdcf810554ca91daac7d8d
 import connexion
 from thoth.ash import __version__
 
 
-def info_response() -> dict:
+def info_response() -> Dict[str, Any]:
     """This method will do the real work."""
     return {
         "version": __version__,

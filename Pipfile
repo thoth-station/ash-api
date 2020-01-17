@@ -7,8 +7,18 @@ verify_ssl = true
 
 [packages]
 connexion = {extras = ["swagger-ui"],version = "*"}
+<<<<<<< HEAD
 thoth-storages = "*"
 python-dotenv = "*"
+=======
+gunicorn = "*"
+e1839a8 = {path = "."}
+opentracing = "*"
+flask-script = "*"
+prometheus-flask-exporter = "*"
+jaeger-client = "*"
+thoth-common = "*"
+>>>>>>> 706dc20214b4b91a57cdcf810554ca91daac7d8d
 
 [requires]
 python_version = "3.6"
